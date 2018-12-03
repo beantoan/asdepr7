@@ -1,0 +1,57 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: #f5f5f5;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255);
+}
+
+.logo {
+  padding: 0;
+  margin: 0 15px 0 0;
+  height: 50px;
+}
+
+.welcome-img {
+  height: 250px;
+}
+
+.game-board {
+    width: 450px;
+}
+
+.game-row-header, .game-row {
+    height: 50px;
+}
+
+.game-row-header .game-cell,
+.game-row .game-cell {
+    width: 50px;
+    height: 50px;
+}
+
+.game-row .game-cell {
+    background: transparent url('/img/cell.png') no-repeat center;
+    cursor: pointer;
+}
+
+.game-row .game-cell.blue-ball {
+    background-image: url('/img/cell.png'), url('/img/blue_ball.png');
+}
+
+.game-row .game-cell.red-ball {
+    background-image: url('/img/cell.png'), url('/img/red_ball.png');
+}
+
+.game-row-header .game-cell.blue-ball {
+    background-image: url('/img/blue_ball.png');
+}
+
+.game-row-header .game-cell.red-ball {
+    background-image: url('/img/red_ball.png');
+}
